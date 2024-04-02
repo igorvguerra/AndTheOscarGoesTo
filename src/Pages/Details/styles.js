@@ -13,12 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    background-color: green;
-
-    > sgv {
-        height: 60px;
-        width: 60px;
-        color: ${({ theme }) => theme.COLORS.YELLOW};
-    }
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+    padding: 200px;
+    
 
 `;
