@@ -32,7 +32,7 @@ export function Details() {
                 
 
                 <Tag  title= "Ficção Científica" />
-                <Tag  title= "Drama" />
+                <Tag  title= "Drama" /> 
                 <Tag  title= "Família" />
 
                 <div>

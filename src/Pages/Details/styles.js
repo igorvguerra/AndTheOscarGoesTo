@@ -29,6 +29,7 @@ export const Content = styled.div`
 
     svg {
         margin: 0 5px 0;
+        font-size: 25px;
     }
 
    }
