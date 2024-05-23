@@ -15,7 +15,7 @@ export function MovieNote({ data, ...rest }) {
                 <Ratting icon={FaRegStar} />
             </div>
 
-            <p> {data.description} </p>
+           
 
         {
             data.tags &&

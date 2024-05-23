@@ -1,4 +1,4 @@
-import { Container, Logo, Profile, Search } from './styles';
+import { Container, Logo, Profile, Title } from './styles';
 
 
 export function Header() {
@@ -47,11 +47,13 @@ export function Header() {
 	c-0.735,4.465-0.604,9.507-0.146,12.522c0.216,1.426,0.791,3.283,1.346,5.079c0.668,2.158,1.359,4.389,1.538,6.208
 	c0.225,2.284,0.563,9.659-0.398,11.95C104.236,161.399,104.109,161.652,103.968,161.903z"/>
 				</svg>
-                <h1>And The Oscars Goes To...</h1>
+                
 
             </Logo>
-
-            <Search placeholder='Pesquisar pelo título'/>
+			<Title>
+			<h1>And The Oscars Goes To...</h1>
+			</Title>
+            
             
             <Profile>
                 <div>

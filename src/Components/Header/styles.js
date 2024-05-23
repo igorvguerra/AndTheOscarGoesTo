@@ -9,12 +9,12 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     font-size: 16px;
-    padding: 24px 123px;
+    padding: 24px 100px 20px 40px;
     grid-area: header;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 80px;
 
     
@@ -29,33 +29,26 @@ export const Logo = styled.div`
     color: ${({ theme }) => theme.COLORS.PINK};
     display: flex;
     
+    
     align-items: center;
     justify-content: start;
     
-    > h1 {
-        font-size: 24px;
-        margin-left: 21px;
-        width: 160px;
-    }
+    
 
 `;
 
-export const Search = styled.input`
+export const Title = styled.div`
     height: 56px;
-    padding: 19px 24px;
     font-size: 14px;
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
     border: none;
     border-radius: 10px;
     width: 100%;
-    color: ${({ theme }) => theme.COLORS.WHITE};
-   
-    
-
-    &::placeholder {
-        color: ${({ theme }) => theme.COLORS.GRAY_100};
-
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ${({ theme }) => theme.COLORS.PINK};
+    margin-left: 70px;
+       
 `;
 
 export const Profile = styled.div`
