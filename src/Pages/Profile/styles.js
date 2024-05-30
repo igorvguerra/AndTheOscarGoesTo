@@ -25,6 +25,7 @@ export const Container = styled.div`
             
         }
     }
+    
 `;
 
 export const Form = styled.form`
@@ -34,6 +35,11 @@ export const Form = styled.form`
     > div:nth-child(4) {
         margin-top: 24px;
     }
+
+    > div:nth-child(5) {
+        margin-bottom: 24px;
+    }
+
 `;
 
 export const Avatar = styled.div`
