@@ -24,6 +24,10 @@ export const Content = styled.div`
         margin-bottom: 40px;
         gap: 140px;
 
+        > h1 {
+            width: 100%;
+        }
+
     }
 `;
 
@@ -47,7 +51,7 @@ export const SearchBar = styled.input`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
     border: none;
     border-radius: 10px;
-    width: 350px;
+    width: 100%;
     color: ${({ theme }) => theme.COLORS.WHITE};
    
     

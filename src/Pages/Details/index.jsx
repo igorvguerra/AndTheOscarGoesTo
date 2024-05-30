@@ -13,7 +13,7 @@ export function Details() {
         <Container>
             <Header />
             <Content>
-                <TextButton title= 'Voltar' icon={FaArrowLeft} />
+                <TextButton title= 'Return' icon={FaArrowLeft} />
                 <div>
                     <h1>
                         Interstellar
@@ -25,15 +25,15 @@ export function Details() {
                     <Ratting icon={FaRegStar} />
                 </div>
                 <div>
-                    <img src="https://github.com/igorvguerra.png" alt="imagem de perfil do usuário" />
-                    <span>Por Igor Guerra</span>
+                    <img src="https://github.com/igorvguerra.png" alt="user profile image" />
+                    <span>By Igor Guerra</span>
                     <TimeStamp title= '23/05/22 às 08:00' icon={MdOutlineWatchLater} />
                 </div>       
                 
 
-                <Tag  title= "Ficção Científica" />
+                <Tag  title= "Science Fiction" />
                 <Tag  title= "Drama" /> 
-                <Tag  title= "Família" />
+                <Tag  title= "Family" />
 
                 <div>
                     <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se comunicar com ela. Pai e filha descobrem que o "fantasma" é uma inteligência desconhecida que está enviando mensagens codificadas através de radiação gravitacional, deixando coordenadas em binário que os levam até uma instalação secreta da NASA liderada pelo professor John Brand. O cientista revela que um buraco de minhoca foi aberto perto de Saturno e que ele leva a planetas que podem oferecer condições de sobrevivência para a espécie humana. As "missões Lázaro" enviadas anos antes identificaram três planetas potencialmente habitáveis orbitando o buraco negro Gargântua: Miller, Edmunds e Mann – nomeados em homenagem aos astronautas que os pesquisaram. Brand recruta Cooper para pilotar a nave espacial Endurance e recuperar os dados dos astronautas; se um dos planetas se mostrar habitável, a humanidade irá seguir para ele na instalação da NASA, que é na realidade uma enorme estação espacial. A partida de Cooper devasta Murphy.

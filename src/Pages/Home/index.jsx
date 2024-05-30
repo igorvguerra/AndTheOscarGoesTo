@@ -2,9 +2,7 @@ import { Container, Content, Menu, SearchBar } from './styles';
 import { Header } from '../../Components/Header';
 import { FaPlus } from 'react-icons/fa';
 import { Button } from '../../Components/Button';
-import { Ratting } from '../../Components/Ratting';
-import { FaStar, FaRegStar } from "react-icons/fa";
-import { Tag } from '../../Components/Tag';
+
 import { MovieNote } from '../../Components/MovieNote';
 
 
@@ -15,25 +13,25 @@ export function Home() {
         <Container>
             <Header />
             <Menu>
-                <li><TextButton title="Todos" $isActive={true} /></li>
+                <li><TextButton title="All" $isActive={true} /></li>
                 <li><TextButton title="Drama"/></li>
-                <li><TextButton title="Ação"/></li>
+                <li><TextButton title="Action"/></li>
               
             </Menu>
             <Content>
                 
                 <div>
-                    <h1>Meus Filmes</h1>
-                    <SearchBar placeholder="Pesquisar pelo título do filme"/>
-                    <Button icon= {FaPlus} title='Adicionar Filme'/>
+                    <h1>My Movies</h1>
+                    <SearchBar placeholder="Search by movie title"/>
+                    <Button icon= {FaPlus} title='Add New Movie'/>
                 </div>
 
                 <MovieNote data={{ 
                     title: 'Interstellar',
                     tags:[
-                        {id: '1', name: 'Ficção Científica'},
+                        {id: '1', name: 'Science Fiction'},
                         {id: '2', name: 'Drama'},
-                        {id: '3', name: 'Família'}
+                        {id: '3', name: 'Family'}
                 ]
                 }} />
                 <MovieNote data={{ 
@@ -41,14 +39,14 @@ export function Home() {
                     tags:[
                         {id: '1', name: 'Comics'},
                         {id: '2', name: 'Superhero'},
-                        {id: '3', name: 'Ação'}
+                        {id: '3', name: 'Action'}
                 ]
                 }} />
                 <MovieNote data={{ 
                     title: 'Star Wars',
                     tags:[
-                        {id: '1', name: 'Ficção Científica'},
-                        {id: '2', name: 'Ação'},
+                        {id: '1', name: 'Science Fiction'},
+                        {id: '2', name: 'Action'},
                         
                 ]
                 }} />

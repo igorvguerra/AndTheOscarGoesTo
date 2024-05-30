@@ -58,9 +58,9 @@ export function Header() {
             <Profile>
                 <div>
                     <strong>Igor Guerra</strong>
-                    <a href="#">Sair</a>
+                    <a href="#">Log Out</a>
                 </div>
-                <img src="https://github.com/igorvguerra.png" alt='Foto do usuário.'/>
+                <img src="https://github.com/igorvguerra.png" alt='user profile image'/>
             </Profile>
         </Container>
     )
